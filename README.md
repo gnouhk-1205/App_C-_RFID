@@ -1,15 +1,13 @@
-# App_C#_RFID
-Ứng dụng C# WinForms giao tiếp với đầu đọc RFID qua cổng Serial (UART).
-## Tính năng chính
-- Tự động quét và kết nối cổng COM (USB-to-UART / CH340).
-- Giám sát trạng thái cắm/rút thiết bị thời gian thực.
-- Đọc và xử lý mã thẻ RFID.
-- Giao diện trực quan thông báo trạng thái kết nối.
-## Yêu cầu hệ thống
-- Windows 10/11
-- .NET Framework 4.7.2 trở lên (hoặc .NET 6/8)
-- Visual Studio 2022
-## Cài đặt & Chạy
-1. Clone repository về máy:
-   ```bash
-   git clone [https://github.com/gnouhk-1205/App_C-_RFID.git](https://github.com/gnouhk-1205/App_C-_RFID.git)
+App_C#_RFID
+   A C# WinForms application that communicates with an RFID reader via Serial Port (UART).
+Key Features
+   Automatically scans and connects to COM ports (USB-to-UART / CH340).
+   Real-time monitoring of device plug/unplug status.
+   Reads and processes RFID tag codes.
+   Intuitive user interface displaying connection status.
+System Requirements
+   Windows 10/11
+   .NET Framework 4.7.2 or higher (or .NET 6/8)
+   Visual Studio 2022
+Installation & Usage
+   <git clone https://github.com/gnouhk-1205/App_C-_RFID.git>
